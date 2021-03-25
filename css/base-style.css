@@ -1,13 +1,20 @@
 /* VARIABILI STILI E COLORI */
 :root {
-  --main-bg-color: #eeeeee;
+  --primary1-color: #551cab;
+  --primary2-color: #ffffff;
+
+  --secondary1-color: #1a1a1a;
+  --secondary2-color: #ff6b6b;
+  --secondary3-color: #ffe66d;
+  --secondary4-color: #4ecdc4;
+  --secondary5-color: #4e94cd;
 }
 
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: var(--main-bg-color);
+  background: var(--primary2-color);
 
   display: flex;
   flex-direction: column;
@@ -17,7 +24,7 @@ body {
 
 .main-theme {
   width: 100%;
-  background: var(--main-bg-color);
+  background: var(--primary2-color);
 }
 
 header,
