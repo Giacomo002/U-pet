@@ -1,0 +1,35 @@
+/* card template */
+.sec-card {
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+  background: var(--primary2-color);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+}
+.sec-card .card-title,
+.sec-card .card-text {
+  padding: 0;
+  margin: 5px;
+}
+
+.alert {
+  color: var(--secondary3-t-color);
+  background: var(--secondary3-color);
+}
+.error {
+  color: var(--secondary2-t-color);
+  background: var(--secondary2-color);
+}
+.succes {
+  color: var(--secondary4-t-color);
+  background: var(--secondary4-color);
+}
+.notf {
+  color: var(--secondary5-t-color);
+  background: var(--secondary5-color);
+}

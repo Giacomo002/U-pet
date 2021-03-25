@@ -1,13 +1,21 @@
+/* importo il font Open Sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
 /* VARIABILI STILI E COLORI */
 :root {
   --primary1-color: #551cab;
   --primary2-color: #ffffff;
 
+  /* il denominativo -t- indica che è per il testo su quel colore */
   --secondary1-color: #1a1a1a;
   --secondary2-color: #ff6b6b;
+  --secondary2-t-color: #bd0000;
   --secondary3-color: #ffe66d;
+  --secondary3-t-color: #917600;
   --secondary4-color: #4ecdc4;
+  --secondary4-t-color: #20706b;
   --secondary5-color: #4e94cd;
+  --secondary5-t-color: #1d4666ff;
 }
 
 body {
@@ -15,7 +23,7 @@ body {
   padding: 0;
   height: 100vh;
   background: var(--primary2-color);
-
+  font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,23 +35,41 @@ body {
   background: var(--primary2-color);
 }
 
-header,
-footer {
+header {
+  padding-top: 5px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 55px;
 }
 
 section {
   height: 100%;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+.user-topbar {
+  width: 100%;
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 .user-icon-img {
-  height: 55px;
-  width: 55px;
-  float: right;
+  height: 45px;
+  width: 45px;
   border-radius: 100%;
 }
