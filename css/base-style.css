@@ -33,3 +33,10 @@ section {
   height: 100%;
   background-color: aqua;
 }
+
+.user-icon-img{
+  height: 55px;
+  width: 55px;
+  float: right;
+  border-radius: 100%;
+}
