@@ -17,7 +17,7 @@ body {
 
 .main-theme {
   width: 100%;
-  background: var(--main-bg-color);
+  /* background: var(--main-bg-color); */
 }
 
 header,
@@ -26,9 +26,10 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10%;
+  height: 55px;
 }
 
 section {
-  height: 80%;
+  height: 100%;
+  background-color: aqua;
 }
