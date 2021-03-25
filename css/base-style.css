@@ -33,9 +33,17 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10%;
+  height: 55px;
 }
 
 section {
-  height: 80%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.user-icon-img {
+  height: 55px;
+  width: 55px;
+  float: right;
+  border-radius: 100%;
 }
