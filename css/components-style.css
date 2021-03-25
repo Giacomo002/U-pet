@@ -9,7 +9,7 @@
   padding: 10px;
   margin: 10px;
   background: var(--primary2-color);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.027);
 }
 .sec-card .card-title,
 .sec-card .card-text {
@@ -20,16 +20,28 @@
 .alert {
   color: var(--secondary3-t-color);
   background: var(--secondary3-color);
+  box-shadow: 0 6px 10px #9176004b, 0 0 6px #9176002a;
 }
 .error {
   color: var(--secondary2-t-color);
   background: var(--secondary2-color);
+  box-shadow: 0 6px 10px #bd00004b, 0 0 6px #bd00002a;
 }
 .succes {
   color: var(--secondary4-t-color);
   background: var(--secondary4-color);
+  box-shadow: 0 6px 10px #20706b4b, 0 0 6px #20706b2a;
 }
 .notf {
   color: var(--secondary5-t-color);
   background: var(--secondary5-color);
+  box-shadow: 0 6px 10px #4e94cd4b, 0 0 6px #4e94cd2a;
+}
+
+/* icone navbar */
+.icon-active {
+  color: var(--primary1-color);
+}
+.icon-inactive {
+  color: var(--secondary1-t-color);
 }

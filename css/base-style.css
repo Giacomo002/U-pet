@@ -8,6 +8,7 @@
 
   /* il denominativo -t- indica che è per il testo su quel colore */
   --secondary1-color: #1a1a1a;
+  --secondary1-t-color: #4d4c4c;
   --secondary2-color: #ff6b6b;
   --secondary2-t-color: #bd0000;
   --secondary3-color: #ffe66d;
@@ -23,6 +24,7 @@ body {
   padding: 0;
   height: 100vh;
   background: var(--primary2-color);
+  color: var(--secondary1-color);
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
@@ -53,11 +55,17 @@ section {
 }
 
 footer {
+  padding-bottom: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   height: 60px;
+  font-size: 24px;
+}
+
+footer .home-icon {
+  font-size: 30px;
 }
 
 .user-topbar {
