@@ -1,3 +1,11 @@
+## Modifiche commit 12:36 26/03
+
+- Distanza dal top portata a 10px
+- Icone navbar con padding per facilitare il touch
+- Icon animation navbar
+- Navbar style
+- Switch checkbox style
+
 ## Modifiche commit 22:38 25/03 [Giacomo]
 
 - Colori aggiunti: colore testo
