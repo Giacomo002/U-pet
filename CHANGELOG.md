@@ -1,4 +1,4 @@
-## Modifiche commit 12:36 26/03
+## Modifiche commit 12:36 26/03 [Giacomo]
 
 - Distanza dal top portata a 10px
 - Icone navbar con padding per facilitare il touch
