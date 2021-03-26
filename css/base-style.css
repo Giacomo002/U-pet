@@ -8,7 +8,7 @@
 
   /* il denominativo -t- indica che è per il testo su quel colore */
   --secondary1-color: #1a1a1a;
-  --secondary1-t-color: #1a1a1a5d;
+  --secondary1-t-color: rgb(192, 192, 192);
   --secondary2-color: #ff6b6b;
   --secondary2-t-color: #bd0000;
   --secondary3-color: #ffe66d;
@@ -16,14 +16,17 @@
   --secondary4-color: #4ecdc4;
   --secondary4-t-color: #20706b;
   --secondary5-color: #4e94cd;
-  --secondary5-t-color: #1d4666ff;
+  --secondary5-t-color: #1d4666;
 }
-
 /* non fa venire il rettangolo blue di selezione su mobile */
+::-webkit-scrollbar {
+  display: none;
+}
 * {
   -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
-
 body {
   user-select: none;
   margin: 0;
@@ -37,12 +40,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .main-theme {
   width: 100%;
   background: var(--primary2-color);
 }
-
 header {
   padding-top: 10px;
   display: flex;
@@ -57,6 +58,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 footer {
   display: flex;
