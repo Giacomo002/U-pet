@@ -255,3 +255,28 @@ input[type="checkbox"].switch_box:checked:after {
   background: var(--secondary5-color);
   color: var(--primary2-color);
 }
+.animal-card{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  background: var(--primary2-color);
+  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 17%);
+  font-weight: bold;
+}
+.animals_box{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  width: 100%;
+}
+.animal-icon{
+  font-size: 40px;
+  color: var(--primary1-color);
+  text-align: center;
+}
+.card-text-animal{
+  margin:5px;
+}
