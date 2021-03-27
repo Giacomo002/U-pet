@@ -194,6 +194,10 @@ input[type="checkbox"].switch_box:checked:after {
   /* Microsoft Edge */
   color: var(--secondary1-t-color);
 }
+.input_field_search{
+  border:none;
+  width: 100%;
+}
 /* END input text */
 /* button style */
 .button_theme {
@@ -242,4 +246,10 @@ input[type="checkbox"].switch_box:checked:after {
 .button_theme3:focus {
   background: var(--secondary5-color);
   color: var(--primary2-color);
+}
+.search_box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }

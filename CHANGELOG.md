@@ -1,3 +1,6 @@
+## Modifiche commit 14:14 27/03 [Tommaso]
+ -Aggiunto search search_box
+
 ## Modifiche commit 11:58 27/03 [Giacomo]
 
 -Aggiunto manifesto json
