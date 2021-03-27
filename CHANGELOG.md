@@ -1,3 +1,14 @@
+## Modifiche commit 11:47 27/03 [Giacomo]
+
+- Creato foglio Hmtl con tutti i componenti
+- Create classi per dimensione testo
+- Revisionato il layaout della home, ora è più affidabile
+- Aggiunte dimensioni font corrette da usare
+- Aggiunto stile button
+- Classi di stile di user-img e user-topbar spostate in components-style
+- Ring colorato user-img
+- Bottom NavBar sistemato il padding e modificata leggermente l'ombra e il bordo
+
 ## Modifiche commit 21:54 26/03 [Giacomo]
 
 - Aggiunto scroll to section

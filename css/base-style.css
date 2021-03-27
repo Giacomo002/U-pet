@@ -17,6 +17,9 @@
   --secondary4-t-color: #20706b;
   --secondary5-color: #4e94cd;
   --secondary5-t-color: #1d4666;
+
+  --hight-header: 55px;
+  --height-footer: 60px;
 }
 /* non fa venire il rettangolo blue di selezione su mobile */
 ::-webkit-scrollbar {
@@ -26,19 +29,22 @@
   -webkit-tap-highlight-color: transparent;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-}
-body {
   user-select: none;
+}
+html {
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
   background: var(--primary2-color);
   color: var(--secondary1-color);
   font-family: "Open Sans", sans-serif;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .main-theme {
   width: 100%;
@@ -50,10 +56,11 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 55px;
+  width: 100%;
+  flex: 0 1 var(--hight-header);
 }
 section {
-  height: 100%;
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,20 +74,6 @@ footer {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 60px;
   font-size: 24px;
-  margin-bottom: 5px;
-}
-.user-topbar {
-  width: 100%;
-  margin: 0px 15px 0px 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.user-icon-img {
-  height: 45px;
-  width: 45px;
-  border-radius: 100%;
+  flex: 0 1 var(--height-footer);
 }
