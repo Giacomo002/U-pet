@@ -1,0 +1,16 @@
+{
+    "name": "U-pet",
+    "short_name": "U-pet",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#551cab",
+    "theme_color": "#fff",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./img/logoUpet.png",
+            "type": "image/png",
+            "sizes": "500x500"
+        }
+    ]
+}

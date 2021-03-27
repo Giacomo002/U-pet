@@ -1,3 +1,7 @@
+## Modifiche commit 11:58 27/03 [Giacomo]
+
+-Aggiunto manifesto json
+
 ## Modifiche commit 11:47 27/03 [Giacomo]
 
 - Creato foglio Hmtl con tutti i componenti
