@@ -265,6 +265,7 @@ input[type="checkbox"].switch_box:checked:after {
   background: var(--primary2-color);
   box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 17%);
   font-weight: bold;
+  filter:contrast(0.6);
 }
 .animals_box{
   display: flex;

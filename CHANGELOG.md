@@ -1,3 +1,8 @@
+## Modifiche commit 18:29 27/03 [Tommaso]
+
+- Creato file animals-box-animation.js
+- Aggiunte animazioni alla classe animal-card
+
 ## Modifiche commit 15:46 27/03 [Tommaso]
 
 - Aggiunto animals_box
