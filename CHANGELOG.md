@@ -1,3 +1,14 @@
+## Modifiche commit 21:59 27/03 [Giacomo]
+
+- Aggiunto colore primary1-t2
+- Aggiornate icone navbar e input con il nuovo colore
+- Nuovo stile agli input
+- Fixato bug Animal-card, l'ultimo elemento non aveva il margine dal bordo
+- Aggiunto stile per animal-card non selezionate
+- Aggiunto stile per anima-card selezionate
+- Ottimizzato javascript: [sorry] elinato file aniamls-box-animation.js e implementato l'animazione con quella già esistente per la navbar
+- Aggiunto div con classe animal-flex per fixare il bug del margine non visibile
+
 ## Modifiche commit 18:29 27/03 [Tommaso]
 
 - Creato file animals-box-animation.js

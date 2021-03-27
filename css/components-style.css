@@ -8,7 +8,8 @@
 
   /* il denominativo -t- indica che è per il testo su quel colore */
   --secondary1-color: #1a1a1a;
-  --secondary1-t-color: rgb(192, 192, 192);
+  --secondary1-t-color: rgb(240, 240, 240);
+  --secondary1-t2-color: rgb(158, 158, 158);
   --secondary2-color: #ff6b6b;
   --secondary2-t-color: #bd0000;
   --secondary3-color: #ffe66d;
@@ -122,7 +123,7 @@ input {
 /* icone navbar */
 footer i {
   padding: 10px;
-  color: var(--secondary1-t-color);
+  color: var(--secondary1-t2-color);
   transition: all 250ms;
 }
 footer i.active {
@@ -137,7 +138,7 @@ input[type="checkbox"].switch_box {
   appearance: none;
   width: 3.5em;
   height: 1.5em;
-  background: var(--secondary1-t-color);
+  background: var(--secondary1-t2-color);
   border-radius: 3em;
   position: relative;
   cursor: pointer;
@@ -178,7 +179,8 @@ input[type="checkbox"].switch_box:checked:after {
   max-width: 360px;
   height: 25px;
   padding: 5px;
-  border: 2px solid var(--secondary1-t-color);
+  background: var(--primary2-color);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.034), 0 0 6px rgba(0, 0, 0, 0.027);
   border-radius: 10px;
   background: var(--primary2-color);
   transition: all 250ms;
@@ -195,16 +197,16 @@ input[type="checkbox"].switch_box:checked:after {
   border: 2px solid var(--secondary5-color);
 }
 .input_field_theme input::placeholder {
-  color: var(--secondary1-t-color);
+  color: var(--secondary1-t2-color);
   opacity: 1; /* Firefox */
 }
 .input_field_theme input:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: var(--secondary1-t-color);
+  color: var(--secondary1-t2-color);
 }
 .input_field_theme input::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: var(--secondary1-t-color);
+  color: var(--secondary1-t2-color);
 }
 /* END input text */
 /* button style */
@@ -255,29 +257,43 @@ input[type="checkbox"].switch_box:checked:after {
   background: var(--secondary5-color);
   color: var(--primary2-color);
 }
-.animal-card{
-  border-radius: 10px;
+
+/* card animal selection */
+.animal-flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.animal-card {
+  min-width: 65px;
+  border-radius: 10px;
+  display: inline-block;
   padding: 10px;
   margin: 10px;
-  background: var(--primary2-color);
-  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 17%);
   font-weight: bold;
-  filter:contrast(0.6);
+  transition: all 250ms;
+  background: var(--primary2-color);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.027);
 }
-.animals_box{
-  display: flex;
-  flex-direction: row;
-  overflow: scroll;
+.animal-card i {
+  color: var(--primary1-color);
+  font-size: 32px;
+}
+.animals_box {
+  overflow: auto;
+  white-space: nowrap;
   width: 100%;
 }
-.animal-icon{
-  font-size: 40px;
-  color: var(--primary1-color);
-  text-align: center;
+.animal-card-inactive {
+  box-shadow: none;
+  background: var(--secondary1-t-color);
+  color: var(--secondary1-t2-color);
 }
-.card-text-animal{
-  margin:5px;
+.animal-card-inactive i {
+  color: var(--secondary1-t2-color);
 }
+.card-text-animal {
+  margin: 5px;
+}
+/* END card animal selection */
