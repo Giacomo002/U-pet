@@ -1,9 +1,14 @@
+## Modifiche commit 14:59 27/03 [Giacomo]
+
+- aggiunte icone agli input e css :focus-within per animazione
+
 ## Modifiche commit 14:14 27/03 [Tommaso]
- -Aggiunto search search_box
+
+- Aggiunto search search_box
 
 ## Modifiche commit 11:58 27/03 [Giacomo]
 
--Aggiunto manifesto json
+- Aggiunto manifesto json
 
 ## Modifiche commit 11:47 27/03 [Giacomo]
 
