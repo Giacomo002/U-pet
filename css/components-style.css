@@ -303,13 +303,8 @@ input[type="checkbox"].switch_box:checked:after {
   margin: 5px;
 }
 /* END card animal selection */
-<<<<<<< HEAD
 /* show box  */
 .show-box {
-=======
-/* show box */
-.show-box{
->>>>>>> 355f62e842a59e79d6d31bb08bb5bc3d2e74c90d
   overflow: auto;
   width: 100%;
   white-space: nowrap;
