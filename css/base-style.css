@@ -45,6 +45,7 @@ body {
   background: var(--primary2-color);
   color: var(--secondary1-color);
   font-family: "Open Sans", sans-serif;
+  position: relative;
 }
 .main-theme {
   width: 100%;
@@ -54,7 +55,7 @@ header {
   padding-top: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   flex: 0 1 var(--hight-header);
