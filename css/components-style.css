@@ -18,6 +18,7 @@
   --secondary4-t-color: #20706b;
   --secondary5-color: #4e94cd;
   --secondary5-t-color: #1d4666;
+  --secondary6-color: #24f224;
 
   --hight-header: 55px;
   --height-footer: 60px;
@@ -58,6 +59,10 @@ input {
 }
 .mn-tl-text {
   font-size: 32px;
+}
+/* margin */
+.sm-margin{
+  margin:5px;
 }
 
 /* user img */
@@ -297,6 +302,7 @@ input[type="checkbox"].switch_box:checked:after {
   margin: 5px;
 }
 /* END card animal selection */
+/* show box */
 .show-box{
   overflow: auto;
   width: 100%;
@@ -317,14 +323,15 @@ input[type="checkbox"].switch_box:checked:after {
   width: 200px;
 }
 .distance-icon{
-  color: #24f224;
+  color: var(--secondary6-color);
   margin: 5px;
 }
-.sm-margin{
-  margin:5px;
-}
-.title{
+/* END show box*/
+.title-box{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
+}
+.color-title-box{
+  color: var(--primary1-color);
 }

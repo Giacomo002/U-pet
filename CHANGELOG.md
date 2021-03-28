@@ -1,3 +1,5 @@
+## Modifiche commit 13:10 28/03 [Tommaso]
+- finito titolo del show-box
 ## Modifiche commit 10:45 28/03 [Tommaso]
 - Aggiunto show-box
 - Iniziato titolo del show-box
