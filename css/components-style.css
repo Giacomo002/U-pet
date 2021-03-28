@@ -297,3 +297,34 @@ input[type="checkbox"].switch_box:checked:after {
   margin: 5px;
 }
 /* END card animal selection */
+.show-box{
+  overflow: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+.show-card{
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+.show-card-sp{
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgb(0 0 0 / 8%), 0 0 6px rgb(0 0 0 / 3%);
+  overflow: hidden;
+}
+.show-card-img{
+  width: 200px;
+}
+.distance-icon{
+  color: #24f224;
+  margin: 5px;
+}
+.sm-margin{
+  margin:5px;
+}
+.title{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}

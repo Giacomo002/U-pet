@@ -1,3 +1,6 @@
+## Modifiche commit 10:45 28/03 [Tommaso]
+- Aggiunto show-box
+- Iniziato titolo del show-box
 ## Modifiche commit 21:59 27/03 [Giacomo]
 
 - Aggiunto colore primary1-t2
