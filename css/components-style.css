@@ -20,7 +20,7 @@
   --secondary4-t-color: #20706b;
   --secondary5-color: #4e94cd;
   --secondary5-t-color: #1d4666;
-  --secondary6-color: #24f224;
+  --secondary6-color: #00ca39;
 
   --hight-header: 55px;
   --height-footer: 60px;
@@ -65,8 +65,8 @@ input {
   font-size: 32px;
 }
 /* margin */
-.sm-margin{
-  margin:5px;
+.sm-margin {
+  margin: 5px;
 }
 
 /* user img */
@@ -84,6 +84,7 @@ input {
   justify-content: space-between;
   align-items: center;
 }
+
 /* card template */
 .sec-card {
   width: 90%;
@@ -222,7 +223,7 @@ input[type="checkbox"].switch_box:checked:after {
   background: var(--secondary5-color);
   color: var(--primary2-color);
   border: 2px solid var(--secondary5-color);
-  border-radius: 5px;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 250ms;
@@ -238,7 +239,7 @@ input[type="checkbox"].switch_box:checked:after {
   background: var(--primary2-color);
   color: var(--secondary5-color);
   border: 2px solid var(--secondary5-color);
-  border-radius: 5px;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -254,7 +255,7 @@ input[type="checkbox"].switch_box:checked:after {
   background: var(--primary2-color);
   color: var(--secondary5-color);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -286,10 +287,11 @@ input[type="checkbox"].switch_box:checked:after {
   font-size: 32px;
 }
 .animals_box {
-  margin: 15px 0px 15px 0px;
+  margin: 5px 0px 5px 0px;
   overflow: auto;
   white-space: nowrap;
   width: 100%;
+  min-height: 90px;
 }
 .animal-card-inactive {
   box-shadow: none;
@@ -304,39 +306,66 @@ input[type="checkbox"].switch_box:checked:after {
 }
 /* END card animal selection */
 /* show box  */
-.show-box {
+.show-box-row {
+  width: var(--width-flex);
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
   overflow: auto;
-  width: 100%;
-  white-space: nowrap;
+  margin-top: 20px;
+}
+.show-box-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 48%;
 }
 .show-card {
-  max-width: 200px;
-  min-width: 200px;
-  margin: 10px;
-  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  width: 100%;
 }
 .show-card-sp img {
   width: 100%;
-  height: 100%;
-}
-.show-card-sp {
-  height: 150px;
   border-radius: 10px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.055), 0 0 6px rgba(0, 0, 0, 0.014);
-  overflow: hidden;
-  align-items: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.082), 0 0 6px rgba(0, 0, 0, 0.048);
 }
 .show-card h3 {
-  margin: 2px;
+  margin: 0px 0px 3px 0px;
 }
-<<<<<<< HEAD
 .show-card p {
   margin: 0;
 }
 .show-card i {
-  color: var(--secondary4-color);
+  color: var(--secondary6-color);
   margin-right: 5px;
 }
+.message-end-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.26);
+}
+.message-end-gallery h3 {
+  margin: 5px;
+}
+.message-end-gallery button {
+  border-color: var(--primary1-t2-color);
+  color: var(--primary1-t2-color);
+  display: none;
+  margin-bottom: 20px;
+}
+.message-end-gallery button:focus {
+  border-color: var(--primary1-t2-color);
+  background-color: var(--primary1-t2-color);
+  color: var(--primary2-color);
+}
+/* End show box  */
+/* titolo gallery home */
 .title {
   display: flex;
   flex-direction: row;
@@ -346,27 +375,12 @@ input[type="checkbox"].switch_box:checked:after {
 }
 .title h2,
 .title h3 {
+  color: var(--secondary1-color);
+  letter-spacing: 3%;
   margin: 0;
   vertical-align: middle;
 }
 .title h3 {
-  font-weight: 800;
-  letter-spacing: 3%;
   color: var(--primary1-t-color);
 }
-/* End show box  */
-=======
-.distance-icon{
-  color: var(--secondary6-color);
-  margin: 5px;
-}
-/* END show box*/
-.title-box{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.color-title-box{
-  color: var(--primary1-color);
-}
->>>>>>> 355f62e842a59e79d6d31bb08bb5bc3d2e74c90d
+/* titolo gallery home */

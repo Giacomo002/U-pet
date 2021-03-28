@@ -1,3 +1,18 @@
+## Modifiche commit 22:38 28/03 [Giacomo]
+
+- Aggiunto messaggio di fine card alla fine dello show-box
+- Aggiunto bottone torna alla home alla fine dello show-box
+- Aggiunta libreria jquery
+- Aggiunto home-layaout.css
+- Aggiunta suddivisione della home in 2 parti, parte alta e parte bassa
+- Aggiunta animazione per vedere a schermo intero la lista di pet
+- Aggiunto home-btns.js
+- Cambiato style della Griglia pet dal slide a griglia per maggiore usufruibilità
+- Cambiato leggermente colore del titolo dello sho-box
+- Aggiunta funzionalita all "see all" del titolo sho-box
+- Eliminato il file app.js perchè senza funzione
+- Inserito informazioni di prova nella griglia dei pet
+
 ## Modifiche commit 13:10 28/03 [Tommaso]
 
 - finito titolo del show-box

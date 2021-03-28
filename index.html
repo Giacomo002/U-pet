@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css\base-style.css" />
     <link rel="stylesheet" href="css\components-style.css">
+    <link rel="stylesheet" href="css\home-layaout.css">
     <link rel="manifest" href="/manifest.json">
     <script src="js\app.js"></script>
     <link rel="icon" type="image/png" href="./img/logoUpet.png" />
@@ -19,112 +20,151 @@
 <body>
     <header class="main-theme">
         <div class="user-topbar">
-            <h3 class="user-name sb-tl-text">Ciao, Giacomo</h3>
+            <h2 class="user-name sb-tl-text" id="page_title">Ciao, Giacomo</h2>
             <img class="user-icon-img"
                 src="https://avatars.githubusercontent.com/u/55291910?s=460&u=2e13e90e43111b757d3170548fe4d6bd6eef471e&v=4"
                 alt="user icon">
         </div>
     </header>
-    <section class="main-theme">
+    <section class="main-theme" id="layaout_section">
+        <div class="parTop-sec" id="home_top_sec">
+            <!------------------------------------------------------------>
+            <div class="input_field_theme bd-text">
+                <i class="fas fa-search sb-tl-text"></i>
+                <input type="text" placeholder="Search" class="input_field">
+            </div>
+            <div class="animals_box">
+                <div class="animal-card">
+                    <div class="animal-flex">
+                        <i class="fas fa-dog"></i>
+                        <p class="card-text-animal bd-text">Dogs</p>
+                    </div>
+                </div>
+                <div class="animal-card animal-card-inactive">
+                    <div class="animal-flex">
+                        <i class="fas fa-cat"></i>
+                        <p class="card-text-animal bd-text">Cats</p>
+                    </div>
+                </div>
+
+                <div class="animal-card animal-card-inactive">
+                    <div class="animal-flex">
+                        <i class="fas fa-fish"></i>
+                        <p class="card-text-animal bd-text">Fishes</p>
+                    </div>
+                </div>
+
+                <div class="animal-card animal-card-inactive">
+                    <div class="animal-flex">
+                        <i class="fas fa-dove"></i>
+                        <p class="card-text-animal bd-text">Birds</p>
+                    </div>
+                </div>
+
+                <div class="animal-card animal-card-inactive">
+                    <div class="animal-flex">
+                        <i class="fas fa-dove"></i>
+                        <p class="card-text-animal bd-text">Birds</p>
+                    </div>
+                </div>
+
+                <div class="animal-card animal-card-inactive">
+                    <div class="animal-flex">
+                        <i class="fas fa-dove"></i>
+                        <p class="card-text-animal bd-text">Birds</p>
+                    </div>
+                </div>
+
+                <div class="animal-card animal-card-inactive">
+                    <div class="animal-flex">
+                        <i class="fas fa-dove"></i>
+                        <p class="card-text-animal bd-text">Birds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!------------------------------------------------------------>
-        <div class="input_field_theme bd-text">
-            <i class="fas fa-search sb-tl-text"></i>
-            <input type="text" placeholder="Search" class="input_field">
-        </div>
-        <div class="animals_box">
-            <div class="animal-card">
-                <div class="animal-flex">
-                    <i class="fas fa-dog"></i>
-                    <p class="card-text-animal bd-text">Dogs</p>
-                </div>
+        <div class="parBot-sec" id="home_bot_sec">
+            <div class="title" id="home_bot_title_sec">
+                <h2 class="sb-tl-text">Nearby</h2>
+                <h3 class="bd-text" id="see-btn-hm">SEE ALL</h3>
             </div>
-            <div class="animal-card animal-card-inactive">
-                <div class="animal-flex">
-                    <i class="fas fa-cat"></i>
-                    <p class="card-text-animal bd-text">Cats</p>
+            <div class="show-box-row" id="home_bot_gallery_sec">
+                <!---------->
+                <div class="show-box-column">
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img
+                                src="https://th.bing.com/th/id/OIP.c_jHiohp04v0O9D6tcys9AHaFj?w=232&h=180&c=7&o=5&pid=1.7">
+                        </div>
+                        <h3 class="bd-text">Nikodem Church</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>0.5 km</p>
+                    </div>
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img src="https://th.bing.com/th/id/OIP.DUpINbOtRBuu15FTOo0fcAHaEo?pid=ImgDet&rs=1">
+                        </div>
+                        <h3 class="bd-text">Aaisha Patton</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>0.7 km</p>
+                    </div>
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img
+                                src="https://th.bing.com/th/id/Rd81708cd971825245c5b5915903b7884?rik=buM02ATWqXTopA&pid=ImgRaw">
+                        </div>
+                        <h3 class="bd-text">Demi Estes</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>1 km</p>
+                    </div>
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img
+                                src="https://th.bing.com/th/id/R2e0e0b49913b434a4ecddaee76be77c9?rik=nJa14kRAQ4B9Cg&pid=ImgRaw">
+                        </div>
+                        <h3 class="bd-text">Kornelia Busby</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>1.2 km</p>
+                    </div>
                 </div>
-            </div>
-
-            <div class="animal-card animal-card-inactive">
-                <div class="animal-flex">
-                    <i class="fas fa-fish"></i>
-                    <p class="card-text-animal bd-text">Fishes</p>
+                <!---------->
+                <div class="show-box-column">
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img
+                                src="https://th.bing.com/th/id/Rd81708cd971825245c5b5915903b7884?rik=buM02ATWqXTopA&pid=ImgRaw">
+                        </div>
+                        <h3 class="bd-text">Demi Estes</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>1 km</p>
+                    </div>
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img
+                                src="https://th.bing.com/th/id/R2e0e0b49913b434a4ecddaee76be77c9?rik=nJa14kRAQ4B9Cg&pid=ImgRaw">
+                        </div>
+                        <h3 class="bd-text">Kornelia Busby</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>1.2 km</p>
+                    </div>
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img
+                                src="https://th.bing.com/th/id/OIP.c_jHiohp04v0O9D6tcys9AHaFj?w=232&h=180&c=7&o=5&pid=1.7">
+                        </div>
+                        <h3 class="bd-text">Nikodem Church</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>0.5 km</p>
+                    </div>
+                    <div class="show-card">
+                        <div class="show-card-sp">
+                            <img src="https://th.bing.com/th/id/OIP.DUpINbOtRBuu15FTOo0fcAHaEo?pid=ImgDet&rs=1">
+                        </div>
+                        <h3 class="bd-text">Aaisha Patton</h3>
+                        <p class="dt-text"><i class="fas fa-location-arrow"></i>0.7 km</p>
+                    </div>
+                    <!---------->
                 </div>
-            </div>
-
-            <div class="animal-card animal-card-inactive">
-                <div class="animal-flex">
-                    <i class="fas fa-dove"></i>
-                    <p class="card-text-animal bd-text">Birds</p>
+                <div class="message-end-gallery">
+                    <h3 class="sb-tl-text">There seem to be no more pets</h3>
+                    <button class="button_theme2 bd-text" id="home_bot_sec_btn">home</button>
                 </div>
-            </div>
-
-            <div class="animal-card animal-card-inactive">
-                <div class="animal-flex">
-                    <i class="fas fa-dove"></i>
-                    <p class="card-text-animal bd-text">Birds</p>
-                </div>
-            </div>
-
-            <div class="animal-card animal-card-inactive">
-                <div class="animal-flex">
-                    <i class="fas fa-dove"></i>
-                    <p class="card-text-animal bd-text">Birds</p>
-                </div>
-            </div>
-
-            <div class="animal-card animal-card-inactive">
-                <div class="animal-flex">
-                    <i class="fas fa-dove"></i>
-                    <p class="card-text-animal bd-text">Birds</p>
-                </div>
-            </div>
-        </div>
-
-        <!------------------------------------------------------------>
-
-        <div class="title">
-            <h2 class="tl-text">Nearby</h2>
-            <h3 class="bd-text">SEE ALL</h3>
-        </div>
-        <div class="show-box">
-            <div class="show-card">
-                <div class="show-card-sp">
-                    <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb.jpg">
-                </div>
-                <h3 class="bd-text">Sottotitoli</h3>
-                <p class="dt-text"><i class="fas fa-location-arrow"></i>Dettagli</p>
-            </div>
-            <div class="show-card">
-                <div class="show-card-sp">
-                    <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb.jpg">
-                </div>
-                <h3 class="bd-text">Sottotitoli</h3>
-                <p class="dt-text"><i class="fas fa-location-arrow"></i>Dettagli</p>
-            </div>
-            <div class="show-card">
-                <div class="show-card-sp">
-                    <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb.jpg">
-                </div>
-                <h3 class="bd-text">Sottotitoli</h3>
-                <p class="dt-text"><i class="fas fa-location-arrow"></i>Dettagli</p>
-            </div>
-            <div class="show-card">
-                <div class="show-card-sp">
-                    <img src="https://i.natgeofe.com/n/4f5aaece-3300-41a4-b2a8-ed2708a0a27c/domestic-dog_thumb.jpg">
-                </div>
-                <h3 class="bd-text">Sottotitoli</h3>
-                <p class="dt-text"><i class="fas fa-location-arrow"></i>Dettagli</p>
             </div>
         </div>
-
-        <!------------------------------------------------------------>
-
-        <div class="sec-card succes">
-            <h4 class="card-title sb-tl-text">Succes <i class="fas fa-check-circle"></i></h4>
-            <p class="card-text bd-text"> Questa card è un modello</p>
-        </div>
-
         <!------------------------------------------------------------>
     </section>
 
@@ -134,9 +174,11 @@
         <i href="#" class="fas fa-user-circle"></i>
     </footer>
 
-    <script src="js/app.js"></script>
+
     <script src="js/animation.js"></script>
     <script src="js/keyboard-fix.js"></script>
+    <script src="js/home-btns.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 
 </html>
