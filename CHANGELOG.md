@@ -1,3 +1,5 @@
+## Modifiche commit 12:45 29/03 [Tommaso]
+- Creata pagina account-page.html
 ## Modifiche commit 22:38 28/03 [Giacomo]
 
 - Aggiunto messaggio di fine card alla fine dello show-box
