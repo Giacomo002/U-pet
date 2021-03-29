@@ -1,5 +1,13 @@
+## Modifiche commit 22:29 29/03 [Giacomo]
+
+- bug navbar nella home sistemato
+- impostazione pagina account-page.hmtl fatta
+- spostato account-page.html nella cartella pages
+
 ## Modifiche commit 12:45 29/03 [Tommaso]
+
 - Creata pagina account-page.html
+
 ## Modifiche commit 22:38 28/03 [Giacomo]
 
 - Aggiunto messaggio di fine card alla fine dello show-box

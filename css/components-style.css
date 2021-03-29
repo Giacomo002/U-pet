@@ -68,7 +68,9 @@ input {
 .sm-margin {
   margin: 5px;
 }
-
+.icon-size {
+  font-size: 24px;
+}
 /* user img */
 .user-icon-img {
   height: 45px;
@@ -77,7 +79,7 @@ input {
   border-radius: 100%;
   border: 2px solid var(--primary1-color);
 }
-.user-img{
+.user-img {
   height: 80px;
   width: 80px;
   padding: 2px;
@@ -91,12 +93,8 @@ input {
   justify-content: space-between;
   align-items: center;
 }
-.fa-user-edit{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 20px;
-  color: var(--primary1-color);
+.user-topbar h2 {
+  margin: 0;
 }
 /* card template */
 .sec-card {
@@ -140,7 +138,6 @@ input {
 .navbar {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.068);
   border-radius: 15px 15px 0px 0px;
-  padding-bottom: 5px;
 }
 /* icone navbar */
 footer i {
@@ -321,12 +318,12 @@ input[type="checkbox"].switch_box:checked:after {
 /* show box  */
 .show-box-row {
   width: var(--width-flex);
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  overflow: auto;
+  overflow: scroll;
   margin-top: 20px;
 }
 .show-box-column {
@@ -397,3 +394,30 @@ input[type="checkbox"].switch_box:checked:after {
   color: var(--primary1-t-color);
 }
 /* titolo gallery home */
+/* account page */
+.parTop-userpage-sec h2 {
+  margin-bottom: 0px;
+}
+.user-account-img {
+  max-width: 50%;
+  min-width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.041), 0 0 6px rgba(0, 0, 0, 0.007);
+}
+
+.sec-card-opt {
+  /* background-color: chartreuse; */
+  width: var(--width-flex);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+.sec-card-opt h4 i {
+  padding-right: 10px;
+  color: var(--primary1-color);
+}
+.sec-card-opt i {
+  color: var(--secondary1-t2-color);
+}
