@@ -1,3 +1,8 @@
+## Modifiche commit 11:34 04/04 [Tommaso]
+- bug fix
+- creata pagina sitter-page.html
+- creato file sitter-layaout.css
+
 ## Modifiche commit 22:29 29/03 [Giacomo]
 
 - bug navbar nella home sistemato

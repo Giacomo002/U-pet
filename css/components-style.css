@@ -421,3 +421,17 @@ input[type="checkbox"].switch_box:checked:after {
 .sec-card-opt i {
   color: var(--secondary1-t2-color);
 }
+.sitter-main-img{
+  background-image: url("https://th.bing.com/th/id/OIP.c_jHiohp04v0O9D6tcys9AHaFj?w=232&h=180&c=7&o=5&pid=1.7");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-gradient{
+  background: linear-gradient(180deg, transparent, var(--primary2-color));
+  width: 100%;
+  height: 100%;
+}
+.parBot-sitterpage-sec button{
+  width: 100%;
+  margin: 0px;
+}
