@@ -1,4 +1,13 @@
+## Modifiche commit 18:49 05/04 [Giacomo]
+
+### FARE LE MODIFICHE SOLO AI FILE DENTRO LA CARTELLA PUBLIC
+
+- Aggiunto file firebase-init.js
+- Initziallizato baackend
+- Sito online
+
 ## Modifiche commit 11:34 04/04 [Tommaso]
+
 - bug fix
 - creata pagina sitter-page.html
 - creato file sitter-layaout.css
