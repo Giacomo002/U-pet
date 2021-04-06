@@ -1,3 +1,9 @@
+## Modifiche commit 12:21 06/04 [Tommaso]
+- migliorato stile della pagina sitter-page.html
+- creato file welcome-page.html
+- creato file welcome-layaout.css
+- bug fix
+
 ## Modifiche commit 18:49 05/04 [Giacomo]
 
 ### FARE LE MODIFICHE SOLO AI FILE DENTRO LA CARTELLA PUBLIC

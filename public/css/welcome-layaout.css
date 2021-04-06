@@ -1,0 +1,16 @@
+.parTop-welcomepage-sec {
+  width: 100%;
+  background: var(--primary2-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  height: 50%;
+}
+.parBot-welcomepage-sec {
+  width: 90%;
+  background: var(--primary2-color);
+  height: 50%;
+}

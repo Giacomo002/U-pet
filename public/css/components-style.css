@@ -399,8 +399,7 @@ input[type="checkbox"].switch_box:checked:after {
   margin-bottom: 0px;
 }
 .user-account-img {
-  max-width: 50%;
-  min-width: 50%;
+  width: 50%;
   border-radius: 10px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.041), 0 0 6px rgba(0, 0, 0, 0.007);
 }
@@ -429,9 +428,17 @@ input[type="checkbox"].switch_box:checked:after {
 .img-gradient{
   background: linear-gradient(180deg, transparent, var(--primary2-color));
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 .parBot-sitterpage-sec button{
   width: 100%;
   margin: 0px;
+}
+.welcome-img {
+  width: 80%;
+  border-radius: 30px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.041), 0 0 6px rgba(0, 0, 0, 0.007);
+}
+.navbar button{
+  width: 100%;
 }

@@ -1,9 +1,8 @@
 .parTop-sitterpage-sec {
   width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   overflow: scroll;
   scroll-behavior: smooth;
   height: 40%;
