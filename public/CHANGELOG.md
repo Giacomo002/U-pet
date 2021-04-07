@@ -1,4 +1,12 @@
+## Modifiche commit 21:55 07/04 [Giacomo]
+
+- Migliorato stile pagina welcome-page.html
+- creato file chat-page.html
+- bug fix
+- aggiornato manifest
+
 ## Modifiche commit 12:21 06/04 [Tommaso]
+
 - migliorato stile della pagina sitter-page.html
 - creato file welcome-page.html
 - creato file welcome-layaout.css
