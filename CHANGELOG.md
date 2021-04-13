@@ -1,3 +1,6 @@
+## Modifiche commit 10:57 013/04 [Tommaso]
+- migliorato stile nella pagina principale per dispositivi con un display piccolo
+
 ## Modifiche commit 21:55 07/04 [Giacomo]
 
 - Migliorato stile pagina welcome-page.html

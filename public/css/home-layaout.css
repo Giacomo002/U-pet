@@ -7,7 +7,8 @@
   align-items: center;
   overflow: scroll;
   scroll-behavior: smooth;
-  height: 26%;
+  /*height: 26%;*/
+  min-height: 160px;
 }
 .parBot-sec {
   width: 100%;
@@ -30,9 +31,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
+  /*overflow: scroll;
   scroll-behavior: smooth;
-  height: 40%;
+  height: 40%;*/
 }
 .parBot-userpage-sec {
   width: 100%;
@@ -41,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: scroll;
+  /*overflow: scroll;
   scroll-behavior: smooth;
-  height: 60%;
+  height: 60%;*/
 }
