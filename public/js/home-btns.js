@@ -43,8 +43,10 @@ seebtnhm.addEventListener('click', e => {
 home_bot_sec_btn.addEventListener('click', e => {
     home_top_sec.style.display = "flex";
     home_bot_title_sec.style.display = "flex";
-    home_bot_sec.style.height = "70%";
+    home_bot_sec.style.height = "72%";
     home_bot_gallery_sec.style.height = "100%";
     home_bot_sec_btn.style.display = "none";
     home_bot_gallery_sec.style.marginTop = "20px";
+    page_title.textContent = 'Ciao, Giacomo';
+    layaout_section.style.justifyContent = "center";
 })

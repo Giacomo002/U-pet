@@ -1,3 +1,7 @@
+## Modifiche commit 12:50 013/04 [Tommaso]
+- bug fix animazione home-btns.js
+- bug fix in COMPONENTS.html
+
 ## Modifiche commit 10:57 013/04 [Tommaso]
 - migliorato stile nella pagina principale per dispositivi con un display piccolo
 
