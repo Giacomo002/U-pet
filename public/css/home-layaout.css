@@ -7,7 +7,7 @@
   align-items: center;
   overflow: scroll;
   scroll-behavior: smooth;
-  /*height: 26%;*/
+  height: 26%;
   min-height: 160px;
 }
 .parBot-sec {
@@ -19,7 +19,7 @@
   align-items: center;
   overflow: scroll;
   scroll-behavior: smooth;
-  height: 72%;
+  height: 74%;
 }
 
 /* user account */

@@ -1,8 +1,15 @@
-## Modifiche commit 12:50 013/04 [Tommaso]
+##Modifiche commit 21:11 15/04 [Giacomo]
+
+- Layaout e stile sitter-page
+- Sistemati alcuni bug
+
+## Modifiche commit 12:50 13/04 [Tommaso]
+
 - bug fix animazione home-btns.js
 - bug fix in COMPONENTS.html
 
-## Modifiche commit 10:57 013/04 [Tommaso]
+## Modifiche commit 10:57 13/04 [Tommaso]
+
 - migliorato stile nella pagina principale per dispositivi con un display piccolo
 
 ## Modifiche commit 21:55 07/04 [Giacomo]
