@@ -172,7 +172,7 @@ footer i.active {
 /* END icone navbar */
 /* switchbox */
 input[type="checkbox"].switch_box {
-  font-size: 15px;
+  font-size: 20px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -434,6 +434,10 @@ input[type="checkbox"].switch_box:checked:after {
   justify-content: space-between;
   align-items: center;
   padding: 0px 30px;
+  transition: 350ms;
+}
+.sec-card-opt:active {
+  background: rgba(158, 158, 158, 0.089);
 }
 .sec-card-opt h4 i {
   padding-right: 10px;

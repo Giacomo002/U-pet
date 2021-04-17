@@ -1,4 +1,10 @@
-##Modifiche commit 21:11 15/04 [Giacomo]
+## Modifiche commit 22:19 17/04 [Giacomo]
+
+- Aggiunto e resa funzionale il filtro animali con le card
+- Aggiunto collegamento a pagina impostazioni con la icon a coount dalla home
+- Bug fix in account-page
+
+## Modifiche commit 21:11 15/04 [Giacomo]
 
 - Layaout e stile sitter-page
 - Sistemati alcuni bug
