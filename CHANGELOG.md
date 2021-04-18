@@ -1,3 +1,9 @@
+## Modifiche commit 22:41 18/04 [Giacomo]
+
+- Sitter page style migliorato
+- Fix bug pagina home
+- Reso installabile su mobile, ancora da finire
+
 ## Modifiche commit 22:19 17/04 [Giacomo]
 
 - Aggiunto e resa funzionale il filtro animali con le card
