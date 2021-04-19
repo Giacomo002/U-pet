@@ -1,0 +1,10 @@
+.parTop-settingspage-sec {
+  width: 100%;
+  background: var(--primary2-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}

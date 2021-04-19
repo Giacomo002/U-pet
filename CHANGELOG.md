@@ -1,3 +1,7 @@
+## Modifiche commit 13:19 19/04 [Tommaso]
+
+- Iniziata settings-page.html
+
 ## Modifiche commit 22:41 18/04 [Giacomo]
 
 - Sitter page style migliorato

@@ -460,7 +460,7 @@ input[type="checkbox"].switch_box:checked:after {
   flex-direction: column;
   align-items: center;
 }
-.sitter-main-img i.arrow {
+.sitter-main-img i.arrow, .parTop-settingspage-sec i.arrow {
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -542,4 +542,22 @@ input[type="checkbox"].switch_box:checked:after {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.my_animals, .my_info{
+  width: 90%;
+}
+.my_animals .show-card{
+  display: inline-block;
+  width: 49%;
+}
+.my_animals .animal-card{
+  width: 37%;
+}
+.my_info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 15px;
 }
