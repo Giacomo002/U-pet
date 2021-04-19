@@ -172,7 +172,7 @@ footer i.active {
 /* END icone navbar */
 /* switchbox */
 input[type="checkbox"].switch_box {
-  font-size: 20px;
+  font-size: 17px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -434,14 +434,21 @@ input[type="checkbox"].switch_box:checked:after {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
   transition: 350ms;
 }
 .sec-card-opt:active {
   background: rgba(158, 158, 158, 0.089);
 }
-.sec-card-opt h4 i {
+.sec-card-opt h4 {
   padding-right: 10px;
+  color: var(--secondary1-color);
+}
+.sec-card-opt h4 i {
+  color: var(--primary1-color);
+}
+.sec-card-opt i {
+  padding-right: 20px;
   color: var(--primary1-color);
 }
 .sec-card-opt i {
@@ -460,7 +467,8 @@ input[type="checkbox"].switch_box:checked:after {
   flex-direction: column;
   align-items: center;
 }
-.sitter-main-img i.arrow, .parTop-settingspage-sec i.arrow {
+.sitter-main-img i.arrow,
+.parTop-settingspage-sec i.arrow {
   position: fixed;
   top: 1rem;
   left: 1rem;
@@ -543,21 +551,45 @@ input[type="checkbox"].switch_box:checked:after {
   flex-direction: row;
   justify-content: space-around;
 }
-.my_animals, .my_info{
-  width: 90%;
+.my_animals,
+.my_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
 }
-.my_animals .show-card{
-  display: inline-block;
-  width: 49%;
+.my_pet {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
-.my_animals .animal-card{
+.show-card-set,
+.show-card-add {
+  width: 45%;
+}
+.my_animals .animal-card-set {
   width: 37%;
 }
-.my_info{
+.my_info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin-top: 15px;
+}
+.show-card-add {
+  max-height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 2px solid var(--primary1-t-color);
+  border-radius: 15px;
+}
+.show-card-add i {
+  font-size: 32px;
+  color: var(--primary1-t-color);
 }

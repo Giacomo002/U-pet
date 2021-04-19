@@ -1,7 +1,7 @@
 {
     "name": "U-pet",
     "short_name": "U-pet",
-    "start_url": ".",
+    "start_url": "welcome-page.html",
     "display": "standalone",
     "background_color": "#551cab",
     "theme_color": "#fff",

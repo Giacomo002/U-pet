@@ -1,3 +1,8 @@
+## Modifiche commit 21:42 19/04 [Giacomo]
+
+- Sistemati alcuni bug setting-page
+- Bug fix
+
 ## Modifiche commit 13:19 19/04 [Tommaso]
 
 - Iniziata settings-page.html

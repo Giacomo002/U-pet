@@ -8,3 +8,10 @@
   overflow: scroll;
   scroll-behavior: smooth;
 }
+
+a {
+  color: var(--secondary1-color);
+}
+a:active {
+  color: var(--secondary1-color);
+}
