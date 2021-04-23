@@ -17,7 +17,7 @@
 
 - Aggiunto e resa funzionale il filtro animali con le card
 - Aggiunto collegamento a pagina impostazioni con la icon a coount dalla home
-- Bug fix in account-page
+- Bug fix in account-page.
 
 ## Modifiche commit 21:11 15/04 [Giacomo]
 
