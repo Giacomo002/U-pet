@@ -15,7 +15,7 @@
   background: var(--primary2-color);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   overflow: scroll;
   scroll-behavior: smooth;

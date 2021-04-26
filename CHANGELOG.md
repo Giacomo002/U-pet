@@ -1,3 +1,7 @@
+## Modifiche commit 13:54 26/04 [Tommaso]
+
+- ottimizzato stile per display piccoli
+- bug fix
 ## Modifiche commit 21:42 19/04 [Giacomo]
 
 - Sistemati alcuni bug setting-page
