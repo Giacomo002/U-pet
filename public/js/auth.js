@@ -1,0 +1,28 @@
+auth.onAuthStateChanged(function(user){
+  if(user){
+    console.log("User logged in: ",user);
+    location.href = "../index.html";
+  }else{
+    console.log("User logged out");
+  }
+});
+const signup=document.querySelector("#signup");
+signup.addEventListener("submit",function(e){
+  e.preventDefault();
+  const email=signup["email-signup"].value;
+  const password=signup["password-signup"].value;
+  auth.createUserWithEmailAndPassword(email,password).then(function(cred){
+    console.log(cred);
+    signup.reset();
+  });
+});
+const login=document.querySelector("#login");
+login.addEventListener("submit",function(e){
+  e.preventDefault();
+  const email=login["email-login"].value;
+  const password=login["password-login"].value;
+  auth.signInWithEmailAndPassword(email,password).then(function(cred){
+    console.log(cred);
+    login.reset();
+  });
+});

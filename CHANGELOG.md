@@ -1,3 +1,10 @@
+## Modifiche commit 13:54 16/06 [Tommaso]
+
+- creata pagina auth
+- aggiunto sign up
+- aggiunto log in
+- aggiunto log out
+
 ## Modifiche commit 13:54 26/04 [Tommaso]
 
 - ottimizzato stile per display piccoli

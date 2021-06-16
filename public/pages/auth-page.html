@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/base-style.css" />
+    <link rel="stylesheet" href="../css/components-style.css">
+    <link rel="stylesheet" href="../css/home-layaout.css">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="icon" type="image/png" href="../img/logoUpet.png" />
+    <title>U-pet</title>
+</head>
+
+<body>
+  <section class="main-theme" id="layaout_section">
+    <form id="signup">
+      <h3 class="sb-tl-text">Sign up</h3>
+      <div class="input_field_theme bd-text">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="email" class="input_field" id="email-signup">
+      </div>
+      <div class="input_field_theme bd-text">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="password" class="input_field" id="password-signup">
+      </div>
+      <input type="submit" class="button_theme2 bd-text" value="SUBMIT">
+    </form>
+    <form id="login">
+      <h3 class="sb-tl-text">Log in</h3>
+      <div class="input_field_theme bd-text">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="email" class="input_field" id="email-login">
+      </div>
+      <div class="input_field_theme bd-text">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="password" class="input_field" id="password-login">
+      </div>
+      <input type="submit" class="button_theme2 bd-text" value="SUBMIT">
+    </form>
+
+    <!-- ------------------------------- Backend ------------------------------------------------ -->
+    <!-- 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥 -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+    <script src="../js/firebase-init.js"></script>
+    <script type="text/javascript">
+      const auth=firebase.auth();
+      const db=firebase.firestore();
+      db.settings({timestampsInSnapshots:true});
+    </script>
+    <script src="../js/index.js"></script>
+    <script src="../js/animation.js"></script>
+    <script src="../js/keyboard-fix.js"></script>
+    <script src="../js/auth.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </section>
+</body>
+
+</html>
