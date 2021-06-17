@@ -8,7 +8,7 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "./img/logoUpet.png",
+            "src": "img/logoUpet.png",
             "type": "image/png",
             "sizes": "512x512"
         }

@@ -1,3 +1,7 @@
+## Modifiche commit 11:16 17/06 [Tommaso]
+
+- bug fix chrome developer console
+
 ## Modifiche commit 13:54 16/06 [Tommaso]
 
 - creata pagina auth
