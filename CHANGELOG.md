@@ -1,3 +1,8 @@
+## Modifiche commit 16:45 17/06 [Tommaso]
+
+- aggiunti messaggi di errore nella pagina auth-page.html
+- bug fix
+
 ## Modifiche commit 11:16 17/06 [Tommaso]
 
 - bug fix chrome developer console

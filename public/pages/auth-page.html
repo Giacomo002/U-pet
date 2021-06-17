@@ -17,6 +17,14 @@
 
 <body>
   <section class="main-theme" id="layaout_section">
+    <div class="sec-card alert" id="alert" style="display:none">
+        <h4 class="card-title sb-tl-text">Alert <i class="fas fa-exclamation-triangle"></i></h4>
+        <p class="card-text bd-text"></p>
+    </div>
+    <div class="sec-card error" id="error" style="display:none">
+        <h4 class="card-title sb-tl-text">Error <i class="fas fa-exclamation-circle"></i></h4>
+        <p class="card-text bd-text"></p>
+    </div>
     <form id="signup">
       <h3 class="sb-tl-text">Sign up</h3>
       <div class="input_field_theme bd-text">
@@ -59,6 +67,7 @@
       const db=firebase.firestore();
       db.settings({timestampsInSnapshots:true});
     </script>
+    <script src="../js/message.js"></script>
     <script src="../js/index.js"></script>
     <script src="../js/animation.js"></script>
     <script src="../js/keyboard-fix.js"></script>
