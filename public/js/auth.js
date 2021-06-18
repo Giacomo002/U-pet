@@ -6,6 +6,7 @@ auth.onAuthStateChanged(function(user){
     console.log("User logged out");
   }
 });
+//////////// SIGNUP////////////
 const signup=document.querySelector("#signup");
 signup.addEventListener("submit",function(e){
   e.preventDefault();
@@ -21,6 +22,7 @@ signup.addEventListener("submit",function(e){
     message("alert",e.message)
   });
 });
+//////////// LOGIN////////////
 const login=document.querySelector("#login");
 login.addEventListener("submit",function(e){
   e.preventDefault();

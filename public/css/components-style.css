@@ -577,7 +577,7 @@ input[type="checkbox"].switch_box:checked:after {
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 45px;
 }
 .show-card-add {
   max-height: 40%;

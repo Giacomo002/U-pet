@@ -1,3 +1,9 @@
+## Modifiche commit 20:31 18/06 [Tommaso]
+
+- creata collezione users su firestore
+- aggiunto settings-user-account.js per comunicare con server firesotre
+- aggiunto bottone per cancellare account
+
 ## Modifiche commit 16:45 17/06 [Tommaso]
 
 - aggiunti messaggi di errore nella pagina auth-page.html
