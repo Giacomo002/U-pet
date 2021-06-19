@@ -3,6 +3,7 @@ var cancel=document.querySelector("#cancel");
 var delete_btn=document.querySelector("#delete-account");
 
 function setupAccount(user){
+  cleanAll();
   var name_u=document.querySelector("#name");
   var email_u=document.querySelector("#email");
   name_u.value=user.displayName;
@@ -12,13 +13,19 @@ function setupAccount(user){
     var birth_u=document.querySelector("#birth");
     var loc_u=document.querySelector("#location");
     var bio_u=document.querySelector("#bio");
-    surname_u.value=data.data().surname;
-    birth_u.value=data.data().birth;
-    loc_u.value=data.data().location;
-    bio_u.value=data.data().bio;
+    try {
+      surname_u.value=data.data().surname;
+      birth_u.value=data.data().birth;
+      loc_u.value=data.data().location;
+      bio_u.value=data.data().bio;
+    } catch (e) {
+      console.log("Profile not set");
+      message("alert","Complete your profile");
+    }
   });
 }
 function updateAccount(user){
+  cleanAll();
   var name_u=document.querySelector("#name").value;
   var surname_u=document.querySelector("#surname").value;
   var birth_u=document.querySelector("#birth").value;
@@ -65,6 +72,6 @@ auth.onAuthStateChanged(function(user){
     });
   }else{
     console.log("User logged out");
-    location.href="auth-page.html";
+    location.href="../welcome-page.html";
   }
 });

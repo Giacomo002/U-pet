@@ -1,3 +1,9 @@
+## Modifiche commit 16:00 19/06 [Tommaso]
+
+- iniziata personalizzazione UI
+- aggiunto bottone forgot password
+- bug fix
+
 ## Modifiche commit 20:31 18/06 [Tommaso]
 
 - creata collezione users su firestore

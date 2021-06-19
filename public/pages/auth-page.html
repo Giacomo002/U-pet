@@ -25,6 +25,10 @@
         <h4 class="card-title sb-tl-text">Error <i class="fas fa-exclamation-circle"></i></h4>
         <p class="card-text bd-text"></p>
     </div>
+    <div class="sec-card succes" id="succes" style="display:none">
+        <h4 class="card-title sb-tl-text">Succes <i class="fas fa-check-circle"></i></h4>
+        <p class="card-text bd-text"> Questa card è un modello</p>
+    </div>
     <form id="signup">
       <h3 class="sb-tl-text">Sign up</h3>
       <div class="input_field_theme bd-text">
@@ -34,6 +38,10 @@
       <div class="input_field_theme bd-text">
           <i class="fas fa-lock"></i>
           <input type="password" placeholder="password" class="input_field" id="password-signup">
+      </div>
+      <div class="input_field_theme bd-text">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="repeat password" class="input_field" id="password-check-signup">
       </div>
       <input type="submit" class="button_theme2 bd-text" value="SUBMIT">
     </form>
@@ -48,6 +56,8 @@
           <input type="password" placeholder="password" class="input_field" id="password-login">
       </div>
       <input type="submit" class="button_theme2 bd-text" value="SUBMIT">
+      <br />
+      <button class="button_theme3 bd-text" id="forgot-password">Forgot password?</button>
     </form>
 
     <!-- ------------------------------- Backend ------------------------------------------------ -->
