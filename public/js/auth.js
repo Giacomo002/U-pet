@@ -46,10 +46,10 @@ login.addEventListener("submit",function(e){
 ///////////// PASSWORD DIMENTICATA ///////////////
 const forgot_password=document.querySelector("#forgot-password");
 forgot_password.addEventListener("click",function(){
-  const email=login["email-login"].value;
+  const email=prompt("Enter your email:");
   cleanAll();
   auth.sendPasswordResetEmail(email).then(function(){
-    message("succes","Email sent to "+email);
+    message("success","Email sent to "+email);
   }).catch(function (e){
     message("error",e.message);
   });

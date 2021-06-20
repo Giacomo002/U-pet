@@ -1,3 +1,10 @@
+## Modifiche commit 15:50 20/06 [Tommaso]
+
+- aggiunta foto profilo per utenti
+- aggiunti messaggi errore e success
+- aggiunti alert per eliminare account e per rimandare password
+- bug fix
+
 ## Modifiche commit 16:00 19/06 [Tommaso]
 
 - iniziata personalizzazione UI

@@ -22,17 +22,22 @@
         <div class="parTop-settingspage-sec">
             <a href="account-page.html"><i class="fas fa-arrow-left arrow"></i></a>
             <div class="my_info">
-                <div class="sec-card succes" id="succes" style="display:none">
-                    <h4 class="card-title sb-tl-text">Succes <i class="fas fa-check-circle"></i></h4>
+                <div class="sec-card succes" id="success" style="display:none">
+                    <h4 class="card-title sb-tl-text">Success <i class="fas fa-check-circle"></i></h4>
                     <p class="card-text bd-text"> Questa card è un modello</p>
                 </div>
                 <div class="sec-card alert" id="alert" style="display:none">
                     <h4 class="card-title sb-tl-text">Alert <i class="fas fa-exclamation-triangle"></i></h4>
                     <p class="card-text bd-text"> Questa card è un modello Alert</p>
                 </div>
+                <div class="sec-card error" id="error" style="display:none">
+                    <h4 class="card-title sb-tl-text">Error <i class="fas fa-exclamation-circle"></i></h4>
+                    <p class="card-text bd-text"> Questa card è un modello Error</p>
+                </div>
                 <img class="user-account-img" src="https://avatars.githubusercontent.com/u/40248211?v=4"
                     alt="user icon">
-                <p class="sm-text">Click the image for changing your avatar</p>
+                <input type="file" id="img-file" name="user-img" value="Change your image">
+                <button class="button_theme2 bd-text" id="upload">Upload</button>
                 <div class="input_field_theme bd-text">
                     <i class="fas fa-user"></i>
                     <input type="text" placeholder="Name" class="input_field" id="name">
@@ -112,11 +117,13 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
 
     <script src="../js/firebase-init.js"></script>
     <script type="text/javascript">
       const auth=firebase.auth();
       const db=firebase.firestore();
+      const sto=firebase.storage();
       db.settings({timestampsInSnapshots:true});
     </script>
     <script src="../js/index.js"></script>
