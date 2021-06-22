@@ -1,3 +1,8 @@
+## Modifiche commit 22:10 22/06 [Tommaso]
+
+- sw caches
+- bug fix
+
 ## Modifiche commit 15:50 20/06 [Tommaso]
 
 - aggiunta foto profilo per utenti
