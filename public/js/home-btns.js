@@ -5,12 +5,12 @@ const home_bot_sec = document.getElementById("home_bot_sec");
 const page_title = document.getElementById("page_title");
 const home_bot_title_sec = document.getElementById("home_bot_title_sec");
 const home_bot_gallery_sec = document.getElementById("home_bot_gallery_sec");
-const layaout_section = document.getElementById("layaout_section");
+const layout_section = document.getElementById("layout_section");
 
 seebtnhm.addEventListener('click', e => {
     // home_bot_sec.style.height = "100%";
     // home_bot_gallery_sec.style.height = "100%";
-    layaout_section.style.justifyContent = "flex-end";
+    layout_section.style.justifyContent = "flex-end";
     $("#home_bot_title_sec").fadeOut(10);
     $("#home_top_sec").fadeOut(10);
 
@@ -27,7 +27,7 @@ seebtnhm.addEventListener('click', e => {
 // home_bot_gallery_sec.addEventListener('scroll', e => {
 //     // home_bot_sec.style.height = "100%";
 //     // home_bot_gallery_sec.style.height = "100%";
-//     layaout_section.style.justifyContent = "flex-end";
+//     layout_section.style.justifyContent = "flex-end";
 //     $("#home_bot_title_sec").fadeOut(10);
 //     $("#home_top_sec").fadeOut(10);
 
@@ -48,5 +48,5 @@ home_bot_sec_btn.addEventListener('click', e => {
     home_bot_sec_btn.style.display = "none";
     home_bot_gallery_sec.style.marginTop = "20px";
     page_title.textContent = 'Ciao, Giacomo';
-    layaout_section.style.justifyContent = "center";
+    layout_section.style.justifyContent = "center";
 })

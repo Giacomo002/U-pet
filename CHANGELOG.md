@@ -1,3 +1,9 @@
+## Modifiche commit 19:40 23/06 [Tommaso]
+
+- static e dynamic caches
+- cache limit
+- fallback.html
+
 ## Modifiche commit 22:10 22/06 [Tommaso]
 
 - sw caches
