@@ -1,5 +1,5 @@
-const staticCacheName="static";
-const dynamicCacheName = 'dynamic';
+const staticCacheName="static-1";
+const dynamicCacheName = 'dynamic-1';
 const cacheSize=50;
 const assets=["./",
   "manifest.json",
@@ -51,19 +51,21 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener("fetch", e => {
-  e.respondWith(
-    caches.match(e.request).then(response => {
-      return response || fetch(e.request).then(response => {
-        return caches.open(dynamicCacheName).then(cache => {
-          cache.put(e.request.url, response.clone());
-          limitCacheSize(dynamicCacheName, cacheSize);
-          return response;
-        })
-      });
-    }).catch(function(){
-      if(e.request.url.indexOf('.html') > -1){
-        return caches.match('pages/fallback.html');
-      }
-    })
-  );
+  if(e.request.url.indexOf('firestore.googleapis.com') === -1 && e.request.url.indexOf('google-analytics.com') === -1){
+    e.respondWith(
+      caches.match(e.request).then(response => {
+        return response || fetch(e.request).then(response => {
+          return caches.open(dynamicCacheName).then(cache => {
+            cache.put(e.request.url, response.clone());
+            limitCacheSize(dynamicCacheName, cacheSize);
+            return response;
+          })
+        });
+      }).catch(function(){
+        if(e.request.url.indexOf('.html') > -1){
+          return caches.match('pages/fallback.html');
+        }
+      })
+    );
+  }
 });

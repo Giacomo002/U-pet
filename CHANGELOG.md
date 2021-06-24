@@ -1,3 +1,9 @@
+## Modifiche commit 16:12 24/06 [Tommaso]
+
+- indexedDB
+- bug fix
+- creato filtro cache
+
 ## Modifiche commit 19:40 23/06 [Tommaso]
 
 - static e dynamic caches
